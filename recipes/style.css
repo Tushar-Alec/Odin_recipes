@@ -4,7 +4,6 @@ body {
   height: 100%;
 }
 
-
 .navbar {
   display: flex;
   text-align: center;
@@ -27,4 +26,20 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+#homebtn {
+  height: 40px;
+  width: 90px;
+  background-color: whitesmoke;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
